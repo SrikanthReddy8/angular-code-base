@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { Navbar } from "../../shared/navbar/navbar";
+import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [Navbar, RouterOutlet],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
